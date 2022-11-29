@@ -1,0 +1,18 @@
+
+URL adresa pre google font Roboto
+https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700
+
+Umiestnenie css súboru FontAwesome - skontrolujte si cestu k samotnému fontu
+css/fontawesome.css
+
+Použité ikonky z FontAwesome:
+<i class="fa fa-database"></i>
+<i class="fa fa-quote-right"></i>
+<i class="fa fa-cloud"></i>
+<i class="fa fa-server"></i>
+<i class="fa fa-save"></i>
+<i class="fa fa-check"></i>
+<i class="fa fa-support"></i>
+<i class="fa fa-phone"></i>
+<i class="fa fa-envelope"></i>
+<i class="fa fa-globe"></i>

@@ -1,0 +1,347 @@
+@import './variables';
+@import './mixins';
+
+
+.header_wrapper{
+    background-image: url('images/heading-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 40vw;
+    
+
+    a{
+        color: white;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 59.375vw 1fr;
+        grid-template-rows: 3.5vw 36.5vw;
+        // border-bottom: 1px solid grey;
+        // align-items: center;
+
+        .headeris{
+            position: fixed;
+            width: 59.375vw;
+            height: 3.646vw;
+            justify-self: center;
+
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+
+            border-bottom: 1px solid grey;
+            transition: 0.5s ease;
+
+            .logo{
+                font-size: 1.042vw;
+                font-weight: 700;
+                margin: 1.302vw 0 1.302vw 0;
+
+                span{
+                    font-size: 0.885vw;
+                }
+            }
+
+            .links_btns{
+                width: 61%;
+                display: flex;
+                justify-content: space-between;
+
+                nav{
+                    // margin: 30px 0 0 0;
+                    li{
+                        display: inline-block;
+                        margin: 1.563vw 2.5vw 1.563vw 0;
+
+                        font-size: 0.729vw;
+                        font-weight: 300;
+                    }
+                }
+
+                .btns{
+                    display: flex;
+                    justify-content: space-between;
+                    align-content: center;
+                    text-align: center;
+                    gap: 1vw;
+                    width: 30%;
+    
+                    .login,.register{
+                        font-size: 0.729vw;
+                        font-weight: 400;
+                        margin: 1.042vw 0 1.042vw 0;
+                        height: 1.5vw;
+                    }
+    
+                    .login{
+                        padding: 0.3vw 0.9vw;
+                        border: 0.104vw solid $white;
+                    }
+    
+                    .register{
+                        padding: 0.35vw 0.8vw;
+                        background-color: $turquoise;
+                    }
+                }
+            }
+        }
+
+        .headeris2{
+            position: fixed;
+            width: 59.375vw;
+            height: 3.646vw;
+            justify-self: center;
+            z-index: 1000;
+
+            background: $white;
+
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+
+            border-bottom: 1px solid grey;
+            transition: 0.5s ease;
+
+            a{
+                color: black;
+            }
+
+            .logo{
+                font-size: 1.042vw;
+                font-weight: 700;
+                margin: 1.302vw 0 1.302vw 0;
+                color: black;
+
+                span{
+                    font-size: 0.885vw;
+                }
+            }
+
+            .links_btns{
+                width: 61%;
+                display: flex;
+                justify-content: space-between;
+
+                nav{
+                    // margin: 30px 0 0 0;
+                    li{
+                        display: inline-block;
+                        margin: 1.563vw 2.5vw 1.563vw 0;
+
+                        font-size: 0.729vw;
+                        font-weight: 300;
+                    }
+                }
+
+                .btns{
+                    display: flex;
+                    justify-content: space-between;
+                    align-content: center;
+                    text-align: center;
+                    gap: 1vw;
+                    width: 30%;
+    
+                    .login,.register{
+                        font-size: 0.729vw;
+                        font-weight: 400;
+                        margin: 1.042vw 0 1.042vw 0;
+                        height: 1.5vw;
+                    }
+    
+                    .login{
+                        padding: 0.3vw 0.9vw;
+                        border: 0.104vw solid $turquoise;
+                        color: $turquoise;
+                    }
+    
+                    .register{
+                        padding: 0.35vw 0.8vw;
+                        background-color: $turquoise;
+                    }
+                }
+            }
+        }
+
+        .text{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            align-self: center;
+
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5vw;
+            padding: 16%;
+            color: $white;
+
+            h1{
+                font-size: 1.823vw;
+            }
+        }
+    }
+}
+
+.login_formular{
+    height: 30vw;
+    display: grid;
+    grid-template-columns: 1fr 59.375vw 1fr;
+
+
+    .input_container{
+        grid-column: 2/3;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        padding: 0 0.5vw;
+        font-size: 0.833vw;
+        gap: 1vw;
+
+        input,a{
+            height: 2.5vw;
+            // align-self: center;
+        }
+
+        input{
+            width: 50%;
+            padding: 0 3%;
+            background: transparent;
+            border: 0.1vw solid grey;
+            color: grey;
+            font-size: 0.833vw;
+            align-self: center;
+        }
+
+        a{
+            padding: 0.65vw 0;
+            width: 13%;
+            background-color: $turquoise;
+            color: $white;
+            position: relative;
+            left: 14.59vw;
+            text-transform: uppercase;
+
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+
+    .checkbox_container{
+        display: flex;
+        justify-content: center;
+        font-size: 0.833vw;
+        gap: 3vw;
+    }
+}
+
+.rating{
+    display: grid;
+    grid-template-columns: 1fr 59.375vw 1fr;
+    height: 35vw;
+    background: $white-grey;
+    // margin: 5vw 0 0 0;
+
+    .texts_container{
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding: 0 10vw;
+
+        h3{
+            font-size: 1.042vw;
+            color: $turquoise;
+        }
+
+        h1{
+            font-size: 1.5vw;
+        }
+
+        p{
+            font-size: 0.8vw;
+        }
+
+        h2{
+            font-size: 1.042vw;
+        }
+
+        .fa-quote-right::before{
+            color: $white;
+            background: linear-gradient($blue, $purple);
+            background-origin: padding-box, border-box;
+            background-repeat: no-repeat; /* this is important */
+            border: 0px solid transparent;
+            border-radius: 2.604vw;
+            padding: 1.5vw 1.5vw;
+            font-size: 1vw;
+        }
+    }
+}
+
+.footer{
+    background-image: url('images/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: grid;
+    grid-template-columns: 1fr 59.375vw 1fr;
+    grid-template-rows: 18vw 7vw;
+    height: 25vw;
+    color: $white;
+
+    header{
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        justify-items: flex-start;
+        gap: 1vw;
+
+        border-bottom: 1px solid grey;
+
+        .col{
+            line-height: 2;
+
+            h1{
+                font-size: 1.042vw;
+            }
+            p{
+                font-size: 0.8vw;
+            }
+
+            .sub_col{
+                display: flex;
+                // line-height: ;
+                font-size: 0.573vw;
+                p{
+                    margin-top: 0.208vw;
+                    margin-left: 0.260vw;
+                    font-size: 0.729vw;
+                }
+            }
+        }
+    }
+    footer{
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            font-size: 0.9vw;
+        }
+    }
+}

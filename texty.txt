@@ -1,0 +1,130 @@
+Zenit Cloud
+Úvod
+O nás
+Služby
+Kontakt
+Prihlásiť
+Registrovať
+
+
+
+Vyhľadajte dostupnú doménovú adresu
+Sem zadajte doménu ...
+.eu (10€/yr)
+.sk (12€/yr)
+.com (8€/yr)
+Vyhľadať
+
+Hostingové služby
+Poskytujeme tie najlepšie služby
+V prvom rade sú to dedikované servery, kde ide o prenájom hardvéru, prinášame však aj komplexné riešenie – manažované servery, čo je v praxi prenájom hardvéru + jeho kompletná administrácia. Využívame výhradne kvalitný značkový serverový hardvér od spoločnosti ŠIOV.
+
+Light Cloud
+Prenechajte starosti s obstaraním a správou servera, administráciou operačného systému, zálohovaním, monitoringom a zabezpečením systému na nás.
+
+Manažovateľný VPS Cloud
+Server vám pripravíme na mieru a zaistíme všetky okolnosti jeho prevádzky. Na vás zostáva iba zadávanie požiadaviek cez jednoduchú administráciu. V prípade záujmu nás kontaktujte.
+
+Dedikované Servery
+Virtuálny server vám už nestačí alebo nechcete mať dáta umiestnené na serveroch, kde majú dáta aj iní zákazníci? Potom nastal ten správny čas na obstaranie fyzického dedikovaného servera.
+
+Konfigurácia Cloud Hostingu
+Vyberte si z našich štandardných konfigurácií alebo nám napíšte o individuálnu ponuku
+
+Basic Cloud
+15.50€
+mesačne
+Základná konfigurácia<br>nášhoCloud Hostingu
+500 GB Dostupného Miesta
+3 TB Prenesených Dát
+Základný Ovládací Panel
+24/7 Rýchla Podpora
+100 Prémiových Tém
+Možnosť Zrušiť alebo Vylepšiť
+Vybrať Cloud
+
+Cloud VPS
+30.00€
+mesačne
+Profesionálna konfigurácia<br>nášho Cloud Hostingu
+1 TB Miesta v Cloude
+8 TB Prenesených Dát
+Úplný Ovládací Panel
+Podpora do 15-minút
+Neobmedzené Rozšírenia
+Možnosť Zrušiť alebo Vylepšiť
+Vybrať Cloud
+
+Advanced Cloud
+72.25€
+mesačne
+Expresná konfigurácia<br>nášho Cloud Hostingu
+4 TB Miesta v Cloude
+20 TB Prenesených Dát
+Úplný Ovládací Panel
+Podpora do 15-minút
+Top Rozšírenia
+Pokročilé Nastavenie
+Vybrať Cloud
+
+
+
+O nás
+Úvod / O nás
+
+O nás
+O našej spoločnosti
+Na trhu pôsobíme od roku 1985. Začali sme ako nadšenci a neskôr sme vybudovali obrovskú značku, ktorá disponuje spoľahlivou infraštruktúrou zahŕňajúcou tri veľké dátové centrá rozdelené na viaceré lokácie a tímom administrátorv, ktorí na všetko dohliadajú.
+
+Naša história v skratke
+Čo bude ďalej?
+
+1985: Náš prvý server v Piešťanoch – SPŠE
+1988: Druhý server v Nižnej – SOUE
+1992: Tretí server v Prešove – SPŠE
+od 1996: poriadne sme sa do toho opreli a každý rok pribúda nový server (Stará Turá, Košice, Liptovský Hrádok, Banská Bystrica, Bratislava, Martin, Komárno, ...)
+2022: Vo februári 2023 plánujeme spustiť najnovší server v Bratislave – SOŠT
+
+Veríme, že naša nová služba urobí revolúciu v poskytovaní webhostingu. To že nie ste obmedzení počtom domén, databáz a emailov vám dáva slobodu, ktorú nemá žiaden poskytovateľ webhostingu na svete.
+V spojení s dobrou cenou a profesionálnou podporou Vám poskytneme Najlepší webhosting na trhu!
+
+
+
+Kontaktujte Nás
+Úvod / Kontakt
+
+Vaše celé meno
+Vaša emailová adresa
+Predmet správy
+Vaše správa
+Odoslať správu
+
+Kontaktujte Nás
+Zostaňme v kontakte
+Neviete sa rozhodnúť, niečo Vám nefunguje, alebo len potrebujete poradiť? Neváhajte a kontaktujete nás.
+0900-111-222
+support@zcloud.eu
+contact@zcloud.eu
+https://zcloud.eu
+
+
+
+Naše služby pre Vás
+Úvod / služby
+
+Hostingové služby
+Poskytujeme tie najlepšie služby
+V prvom rade sú to dedikované servery, kde ide o prenájom hardvéru, prinášame však aj komplexné riešenie – manažované servery, čo je v praxi prenájom hardvéru + jeho kompletná administrácia. Využívame výhradne kvalitný značkový serverový hardvér od spoločnosti ŠIOV.
+
+VPS Cloud
+Máme vlastnú cloudovú infraštruktúru. Tieto virtuálne servery spĺňajú vysoké štandardy výkonu a spoľahlivosti.
+Rýchla sieť
+Disponujeme rýchlou globálnou sieťou a tak dokážeme poskytnúť bleskovo rýchle, bezpečné a spoľahlivé odozvy.
+Spoľahlivé služby
+S nami sa nemusíte báť, že Vaše služby nebudú k dispzícií. Granatujeme  99.9% dostupnosť.
+Manažovateľné CDN
+Získajte pokročilú kontrolu nad ukladaním vášho obsahu do vyrovnávacej pamäte v našej sieti.
+Optimalny Hosting
+Pomôžeme Vám vybrať najvhodnejší hosting a tým Vám dokážeme znížiť náklady aj o 50%.
+Zákaznícka Podpora
+Naši odborníci sú Vám k dispozícií 24 hodín denne, 7 dni v týždni a 365 dní do roka.
