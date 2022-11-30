@@ -20,12 +20,15 @@
   display: grid;
   grid-template-columns: 1fr 59.375vw 1fr;
   grid-template-rows: 3.5vw 36.5vw;
+  padding: 0 20.313vw;
 }
 .header_wrapper1 header .headeris {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
+  grid-column: 2/3;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -92,16 +95,18 @@
 }
 .header_wrapper1 header .headeris2 {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
-  z-index: 1000;
+  grid-column: 2/3;
   background: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-content: center;
   border-bottom: 1px solid grey;
   transition: 0.5s ease;
+  z-index: 1000;
 }
 .header_wrapper1 header .headeris2 a {
   color: black;
@@ -362,10 +367,14 @@
   font-weight: 400;
   margin: 0 0 0 1vw;
 }
+.configuration_cloud_hosting main .con2 .lower_field div .fa {
+  z-index: 0;
+}
 .configuration_cloud_hosting main .con2 .lower_field div .fa-check::before {
   background: -webkit-linear-gradient(#3264f5, #7202BB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 0;
 }
 .configuration_cloud_hosting main .con2 .lower_field a {
   background: #00BCD4;
@@ -375,6 +384,7 @@
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 500;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1060,9 +1070,11 @@
 }
 .header_wrapper_about header .headeris_about {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
+  grid-column: 2/3;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -1129,10 +1141,11 @@
 }
 .header_wrapper_about header .headeris2 {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
-  z-index: 1000;
+  grid-column: 2/3;
   background: #FFFFFF;
   display: flex;
   justify-content: space-between;

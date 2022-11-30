@@ -29,9 +29,13 @@
 
     .headeris_about {
       position: fixed;
-      width: 59.375vw;
+      // width: 59.375vw;
+      width: 100%;
+      padding: 0 20.313vw;
       height: 3.646vw;
       justify-self: center;
+
+      grid-column: 2/3;
 
       display: flex;
       justify-content: space-between;
@@ -116,11 +120,13 @@
 
     .headeris2 {
       position: fixed;
-      width: 59.375vw;
+      // width: 59.375vw;
+      width: 100%;
+      padding: 0 20.313vw;
       height: 3.646vw;
       justify-self: center;
-      z-index: 1000;
 
+      grid-column: 2/3;
       background: $white;
 
       display: flex;
