@@ -5,9 +5,9 @@
 @import 'pages/login';
 @import 'pages/registration';
 
-@import 'pages/onas';
-@import 'pages/sluzby';
-@import 'pages/kontakt';
+@import './pages/onas';
+@import './pages/sluzby';
+@import './pages/kontakt';
 
 *{
     text-decoration: none;
