@@ -2,10 +2,7 @@
 @import "./mixins";
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  @include star;
 }
 
 .header_wrapper_about {
@@ -21,28 +18,13 @@
   }
 
   header {
-    display: grid;
-    grid-template-columns: 1fr 59.375vw 1fr;
+    @include grid-template-columns;
     grid-template-rows: 3.5vw 36.5vw;
     // border-bottom: 1px solid grey;
     // align-items: center;
 
     .headeris_about {
-      position: fixed;
-      // width: 59.375vw;
-      width: 100%;
-      padding: 0 20.313vw;
-      height: 3.646vw;
-      justify-self: center;
-
-      grid-column: 2/3;
-
-      display: flex;
-      justify-content: space-between;
-      align-content: center;
-
-      border-bottom: 1px solid grey;
-      transition: 0.5s ease;
+      @include headeris;
 
       .logo {
         font-size: 1.042vw;
@@ -60,7 +42,6 @@
         justify-content: space-between;
 
         nav {
-          // margin: 30px 0 0 0;
           li {
             display: inline-block;
             margin: 1.563vw 2.5vw 1.563vw 0;
@@ -119,22 +100,7 @@
     }
 
     .headeris2 {
-      position: fixed;
-      // width: 59.375vw;
-      width: 100%;
-      padding: 0 20.313vw;
-      height: 3.646vw;
-      justify-self: center;
-
-      grid-column: 2/3;
-      background: $white;
-
-      display: flex;
-      justify-content: space-between;
-      align-content: center;
-
-      border-bottom: 1px solid grey;
-      transition: 0.5s ease;
+      @include headeris2;
 
       a {
         color: black;
@@ -157,7 +123,6 @@
         justify-content: space-between;
 
         nav {
-          // margin: 30px 0 0 0;
           li {
             display: inline-block;
             margin: 1.563vw 2.5vw 1.563vw 0;
@@ -208,103 +173,102 @@
       }
     }
 
-    .text{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        align-self: flex-start;
+    .text {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      align-self: flex-start;
 
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5vw;
-        padding: 16%;
-        color: $white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5vw;
+      padding: 16%;
+      color: $white;
 
-        h1{
-            font-size: 1.823vw;
-        }
+      h1 {
+        font-size: 1.823vw;
+      }
 
-        p{
-            font-size: 0.8vw;
-        }
+      p {
+        font-size: 0.8vw;
+      }
     }
   }
 }
 
-.aboutus_section{
+.aboutus_section {
+  @include grid-template-columns;
+  height: 50vw;
+  align-items: center;
+
+  .wrapper {
+    grid-column: 2/3;
+    height: 90%;
+
     display: grid;
-    grid-template-columns: 1fr 59.375vw 1fr;
-    height: 50vw;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5vw;
     align-items: center;
 
-    .wrapper{
-        grid-column: 2/3;
-        height: 90%;
+    .img_container {
+      height: 100%;
+      display: grid;
+      justify-items: center;
+      align-items: flex-start;
+      width: 100%;
 
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3.5vw;
-        align-items: center;
-
-        .img_container{
-            height: 100%;
-            display: grid;
-            justify-items: center;
-            align-items: flex-start;
-            width: 100%;
-
-            img{
-                max-width: 100%;
-                width: 500px;
-                margin: 5vw 0 0 0;
-                align-self: flex-start;
-                justify-self: center;
-            }
-        }
-
-        .text{
-            .upper_div{
-                h3{
-                    color: $turquoise;
-                    font-size: 1vw;
-                }
-                h1{
-                    font-size: 1.5vw;
-                }
-                p{
-                    font-size: 0.8vw;
-                    font-weight: 300;
-                }
-
-                padding: 0 0 2vw 0;
-
-                border-bottom: 2.5px solid $white-grey;
-            }
-
-            .lower_div{
-                .heading{
-                    display: flex;
-                    margin: 2vw 0 0 0;
-                    gap: 2vw;
-
-                    h2{
-                        font-size: 1vw;
-
-                        &:nth-child(1){
-                            color: $turquoise;
-                        }
-                    }
-                }
-
-                .ps{
-                    line-height: 4;
-                    font-size: 0.8vw;
-
-                    p{
-                        font-weight: 300;
-                    }
-                }
-            }
-        }
+      img {
+        max-width: 100%;
+        width: 500px;
+        margin: 5vw 0 0 0;
+        align-self: flex-start;
+        justify-self: center;
+      }
     }
+
+    .text {
+      .upper_div {
+        h3 {
+          color: $turquoise;
+          font-size: 1vw;
+        }
+        h1 {
+          font-size: 1.5vw;
+        }
+        p {
+          font-size: 0.8vw;
+          font-weight: 300;
+        }
+
+        padding: 0 0 2vw 0;
+
+        border-bottom: 2.5px solid $white-grey;
+      }
+
+      .lower_div {
+        .heading {
+          display: flex;
+          margin: 2vw 0 0 0;
+          gap: 2vw;
+
+          h2 {
+            font-size: 1vw;
+
+            &:nth-child(1) {
+              color: $turquoise;
+            }
+          }
+        }
+
+        .ps {
+          line-height: 4;
+          font-size: 0.8vw;
+
+          p {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
 }
