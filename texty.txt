@@ -118,13 +118,18 @@ V prvom rade sú to dedikované servery, kde ide o prenájom hardvéru, prináš
 
 VPS Cloud
 Máme vlastnú cloudovú infraštruktúru. Tieto virtuálne servery spĺňajú vysoké štandardy výkonu a spoľahlivosti.
+
 Rýchla sieť
 Disponujeme rýchlou globálnou sieťou a tak dokážeme poskytnúť bleskovo rýchle, bezpečné a spoľahlivé odozvy.
+
 Spoľahlivé služby
 S nami sa nemusíte báť, že Vaše služby nebudú k dispzícií. Granatujeme  99.9% dostupnosť.
+
 Manažovateľné CDN
 Získajte pokročilú kontrolu nad ukladaním vášho obsahu do vyrovnávacej pamäte v našej sieti.
+
 Optimalny Hosting
 Pomôžeme Vám vybrať najvhodnejší hosting a tým Vám dokážeme znížiť náklady aj o 50%.
+
 Zákaznícka Podpora
 Naši odborníci sú Vám k dispozícií 24 hodín denne, 7 dni v týždni a 365 dní do roka.
