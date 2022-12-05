@@ -1,0 +1,288 @@
+@import "./variables";
+@import "./mixins";
+
+* {
+  @include star;
+}
+
+.header_wrapper_about {
+  background-image: url("images/heading-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 30vw;
+
+  a {
+    color: white;
+  }
+
+  header {
+    @include grid-template-columns;
+    grid-template-rows: 3.5vw 36.5vw;
+    // border-bottom: 1px solid grey;
+    // align-items: center;
+
+    .headeris_about {
+      @include headeris;
+
+      .logo {
+        font-size: 1.042vw;
+        font-weight: 700;
+        margin: 1.302vw 0 1.302vw 0;
+
+        span {
+          font-size: 0.885vw;
+        }
+      }
+
+      .links_btns {
+        width: 61%;
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+          li {
+            display: inline-block;
+            margin: 1.563vw 2.5vw 1.563vw 0;
+
+            font-size: 0.729vw;
+            font-weight: 300;
+
+            a {
+              transition: 0.3s ease;
+              &:hover {
+                color: $turquoise;
+              }
+            }
+          }
+        }
+
+        .btns {
+          display: flex;
+          justify-content: space-between;
+          align-content: center;
+          text-align: center;
+          gap: 1vw;
+          width: 30%;
+
+          .login,
+          .register {
+            font-size: 0.729vw;
+            font-weight: 400;
+            margin: 1.042vw 0 1.042vw 0;
+            height: 1.5vw;
+            transition: 0.5s ease;
+          }
+
+          .login {
+            padding: 0.3vw 0.9vw;
+            border: 0.104vw solid $white;
+
+            &:hover {
+              border: none;
+              background: $white;
+              color: $turquoise;
+              padding: 0.35vw 0.92vw;
+            }
+          }
+
+          .register {
+            padding: 0.35vw 0.8vw;
+            background-color: $turquoise;
+
+            &:hover {
+              background: $hover;
+            }
+          }
+        }
+      }
+    }
+
+    .headeris2 {
+      @include headeris2;
+
+      a {
+        color: black;
+      }
+
+      .logo {
+        font-size: 1.042vw;
+        font-weight: 700;
+        margin: 1.302vw 0 1.302vw 0;
+        color: black;
+
+        span {
+          font-size: 0.885vw;
+        }
+      }
+
+      .links_btns {
+        width: 61%;
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+          li {
+            display: inline-block;
+            margin: 1.563vw 2.5vw 1.563vw 0;
+
+            font-size: 0.729vw;
+            font-weight: 300;
+          }
+        }
+
+        .btns {
+          display: flex;
+          justify-content: space-between;
+          align-content: center;
+          text-align: center;
+          gap: 1vw;
+          width: 30%;
+
+          .login,
+          .register {
+            font-size: 0.729vw;
+            font-weight: 400;
+            margin: 1.042vw 0 1.042vw 0;
+            height: 1.5vw;
+          }
+
+          .login {
+            padding: 0.3vw 0.9vw;
+            border: 0.104vw solid $turquoise;
+            color: $turquoise;
+
+            &:hover {
+              border: none;
+              background: $turquoise;
+              color: $white;
+              padding: 0.35vw 0.92vw;
+            }
+          }
+
+          .register {
+            padding: 0.35vw 0.8vw;
+            background-color: $turquoise;
+
+            &:hover {
+              background: $hover;
+            }
+          }
+        }
+      }
+    }
+
+    .text {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      align-self: flex-start;
+
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5vw;
+      padding: 16%;
+      color: $white;
+
+      h1 {
+        font-size: 1.823vw;
+      }
+
+      p {
+        font-size: 0.8vw;
+      }
+    }
+  }
+}
+
+.contact_container {
+  @include grid-template-columns;
+  height: 50vw;
+  align-items: center;
+
+  .wrapper {
+    grid-column: 2/3;
+    height: 90%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5vw;
+    align-items: center;
+
+    .text_left {
+      height: 31.458vw;
+      display: grid;
+      grid-template-rows: repeat(5,3vw);
+      gap: 1vw;
+      justify-items: flex-start;
+      align-items: flex-start;
+      padding: 0 0 0 5vw;
+      width: 100%;
+
+      a,input{
+        height: 2.5vw;
+      }
+      
+      input{
+        width: 100%;
+
+        &:nth-child(4){
+          height: 7.5vw;
+        }
+      }
+
+      a{
+        background: $turquoise;
+        position: relative;
+        top: 5vw;
+        width: 40%;
+        display: grid;
+        place-items: center;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.8vw;
+      }
+    }
+
+    .text1 {
+      display: flex;
+      flex-direction: column;
+      .upper_div {
+        h3 {
+          color: $turquoise;
+          font-size: 1vw;
+        }
+        h1 {
+          font-size: 1.5vw;
+        }
+        p {
+          font-size: 0.8vw;
+          font-weight: 300;
+        }
+
+        padding: 0 0 2vw 0;
+
+        border-bottom: 2.5px solid $white-grey;
+      }
+
+      .lower_div {
+        margin: 2vw 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 3vw;
+
+        .fa::before {
+          color: $white;
+          background-color: $turquoise;
+          border: 0.783vw solid $turquoise;
+          border-radius: 50%;
+          padding: 0 0.104vw;
+          font-size: 1.163vw;
+        }
+      }
+    }
+  }
+}
