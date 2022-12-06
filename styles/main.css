@@ -1719,7 +1719,7 @@
 .contact_container {
   display: grid;
   grid-template-columns: 1fr 59.375vw 1fr;
-  height: 50vw;
+  height: 35vw;
   align-items: center;
 }
 .contact_container .wrapper {
@@ -1728,10 +1728,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3.5vw;
-  align-items: center;
+  place-items: center;
 }
 .contact_container .wrapper .text_left {
-  height: 31.458vw;
   display: grid;
   grid-template-rows: repeat(5, 3vw);
   gap: 1vw;
@@ -1764,9 +1763,11 @@
 .contact_container .wrapper .text1 {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 407px;
 }
 .contact_container .wrapper .text1 .upper_div {
-  padding: 0 0 2vw 0;
+  padding: 0 0 3.5vw 0;
   border-bottom: 2.5px solid #F7F7F7;
 }
 .contact_container .wrapper .text1 .upper_div h3 {
@@ -1787,13 +1788,24 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 3vw;
 }
-.contact_container .wrapper .text1 .lower_div .fa::before {
+.contact_container .wrapper .text1 .lower_div .con {
+  display: flex;
+  gap: 1vw;
+  font-size: 0.6vw;
+}
+.contact_container .wrapper .text1 .lower_div .con .fa::before {
   color: #FFFFFF;
   background-color: #00BCD4;
   border: 0.783vw solid #00BCD4;
   border-radius: 50%;
-  padding: 0 0.104vw;
+  padding: 0 0.105vw;
   font-size: 1.163vw;
+}
+.contact_container .wrapper .text1 .lower_div .con .fa-support::before {
+  padding: 0;
+}
+.contact_container .wrapper .text1 .lower_div .con .fa-envelope::before {
+  padding: 0;
 }
 
 * {
