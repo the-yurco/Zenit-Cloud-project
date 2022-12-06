@@ -26,77 +26,7 @@
     .headeris_about {
       @include headeris;
 
-      .logo {
-        font-size: 1.042vw;
-        font-weight: 700;
-        margin: 1.302vw 0 1.302vw 0;
-
-        span {
-          font-size: 0.885vw;
-        }
-      }
-
-      .links_btns {
-        width: 61%;
-        display: flex;
-        justify-content: space-between;
-
-        nav {
-          li {
-            display: inline-block;
-            margin: 1.563vw 2.5vw 1.563vw 0;
-
-            font-size: 0.729vw;
-            font-weight: 300;
-
-            a {
-              transition: 0.3s ease;
-              &:hover {
-                color: $turquoise;
-              }
-            }
-          }
-        }
-
-        .btns {
-          display: flex;
-          justify-content: space-between;
-          align-content: center;
-          text-align: center;
-          gap: 1vw;
-          width: 30%;
-
-          .login,
-          .register {
-            font-size: 0.729vw;
-            font-weight: 400;
-            margin: 1.042vw 0 1.042vw 0;
-            height: 1.5vw;
-            transition: 0.5s ease;
-          }
-
-          .login {
-            padding: 0.3vw 0.9vw;
-            border: 0.104vw solid $white;
-
-            &:hover {
-              border: none;
-              background: $white;
-              color: $turquoise;
-              padding: 0.35vw 0.92vw;
-            }
-          }
-
-          .register {
-            padding: 0.35vw 0.8vw;
-            background-color: $turquoise;
-
-            &:hover {
-              background: $hover;
-            }
-          }
-        }
-      }
+      @include header;
     }
 
     .headeris2 {
@@ -106,71 +36,7 @@
         color: black;
       }
 
-      .logo {
-        font-size: 1.042vw;
-        font-weight: 700;
-        margin: 1.302vw 0 1.302vw 0;
-        color: black;
-
-        span {
-          font-size: 0.885vw;
-        }
-      }
-
-      .links_btns {
-        width: 61%;
-        display: flex;
-        justify-content: space-between;
-
-        nav {
-          li {
-            display: inline-block;
-            margin: 1.563vw 2.5vw 1.563vw 0;
-
-            font-size: 0.729vw;
-            font-weight: 300;
-          }
-        }
-
-        .btns {
-          display: flex;
-          justify-content: space-between;
-          align-content: center;
-          text-align: center;
-          gap: 1vw;
-          width: 30%;
-
-          .login,
-          .register {
-            font-size: 0.729vw;
-            font-weight: 400;
-            margin: 1.042vw 0 1.042vw 0;
-            height: 1.5vw;
-          }
-
-          .login {
-            padding: 0.3vw 0.9vw;
-            border: 0.104vw solid $turquoise;
-            color: $turquoise;
-
-            &:hover {
-              border: none;
-              background: $turquoise;
-              color: $white;
-              padding: 0.35vw 0.92vw;
-            }
-          }
-
-          .register {
-            padding: 0.35vw 0.8vw;
-            background-color: $turquoise;
-
-            &:hover {
-              background: $hover;
-            }
-          }
-        }
-      }
+      @include header;
     }
 
     .text {
@@ -219,7 +85,7 @@
 
       img {
         max-width: 100%;
-        width: 500px;
+        width: 26.042vw;
         margin: 5vw 0 0 0;
         align-self: flex-start;
         justify-self: center;

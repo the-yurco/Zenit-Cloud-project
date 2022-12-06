@@ -115,7 +115,6 @@
   font-size: 1.042vw;
   font-weight: 700;
   margin: 1.302vw 0 1.302vw 0;
-  color: black;
 }
 .header_wrapper1 header .headeris2 .logo span {
   font-size: 0.885vw;
@@ -131,6 +130,12 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
+.header_wrapper1 header .headeris2 .links_btns nav li a {
+  transition: 0.3s ease;
+}
+.header_wrapper1 header .headeris2 .links_btns nav li a:hover {
+  color: #00BCD4;
+}
 .header_wrapper1 header .headeris2 .links_btns .btns {
   display: flex;
   justify-content: space-between;
@@ -145,16 +150,16 @@
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
+  transition: 0.5s ease;
 }
 .header_wrapper1 header .headeris2 .links_btns .btns .login {
   padding: 0.3vw 0.9vw;
-  border: 0.104vw solid #00BCD4;
-  color: #00BCD4;
+  border: 0.104vw solid #FFFFFF;
 }
 .header_wrapper1 header .headeris2 .links_btns .btns .login:hover {
   border: none;
-  background: #00BCD4;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
 .header_wrapper1 header .headeris2 .links_btns .btns .register {
@@ -505,37 +510,45 @@
   grid-template-columns: 1fr 59.375vw 1fr;
   grid-template-rows: 3.5vw 36.5vw;
 }
-.header_wrapper header .headeris {
+.header_wrapper header .headeris_about {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
+  grid-column: 2/3;
   display: flex;
   justify-content: space-between;
   align-content: center;
   border-bottom: 1px solid grey;
   transition: 0.5s ease;
 }
-.header_wrapper header .headeris .logo {
+.header_wrapper header .headeris_about .logo {
   font-size: 1.042vw;
   font-weight: 700;
   margin: 1.302vw 0 1.302vw 0;
 }
-.header_wrapper header .headeris .logo span {
+.header_wrapper header .headeris_about .logo span {
   font-size: 0.885vw;
 }
-.header_wrapper header .headeris .links_btns {
+.header_wrapper header .headeris_about .links_btns {
   width: 61%;
   display: flex;
   justify-content: space-between;
 }
-.header_wrapper header .headeris .links_btns nav li {
+.header_wrapper header .headeris_about .links_btns nav li {
   display: inline-block;
   margin: 1.563vw 2.5vw 1.563vw 0;
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper header .headeris .links_btns .btns {
+.header_wrapper header .headeris_about .links_btns nav li a {
+  transition: 0.3s ease;
+}
+.header_wrapper header .headeris_about .links_btns nav li a:hover {
+  color: #00BCD4;
+}
+.header_wrapper header .headeris_about .links_btns .btns {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -543,32 +556,45 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper header .headeris .links_btns .btns .login, .header_wrapper header .headeris .links_btns .btns .register {
+.header_wrapper header .headeris_about .links_btns .btns .login,
+.header_wrapper header .headeris_about .links_btns .btns .register {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
+  transition: 0.5s ease;
 }
-.header_wrapper header .headeris .links_btns .btns .login {
+.header_wrapper header .headeris_about .links_btns .btns .login {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper header .headeris .links_btns .btns .register {
+.header_wrapper header .headeris_about .links_btns .btns .login:hover {
+  border: none;
+  background: #FFFFFF;
+  color: #00BCD4;
+  padding: 0.35vw 0.92vw;
+}
+.header_wrapper header .headeris_about .links_btns .btns .register {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
 }
+.header_wrapper header .headeris_about .links_btns .btns .register:hover {
+  background: #00A4B9;
+}
 .header_wrapper header .headeris2 {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
-  z-index: 1000;
+  grid-column: 2/3;
   background: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-content: center;
   border-bottom: 1px solid grey;
   transition: 0.5s ease;
+  z-index: 1000;
 }
 .header_wrapper header .headeris2 a {
   color: black;
@@ -601,7 +627,8 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper header .headeris2 .links_btns .btns .login, .header_wrapper header .headeris2 .links_btns .btns .register {
+.header_wrapper header .headeris2 .links_btns .btns .login,
+.header_wrapper header .headeris2 .links_btns .btns .register {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
@@ -612,14 +639,23 @@
   border: 0.104vw solid #00BCD4;
   color: #00BCD4;
 }
+.header_wrapper header .headeris2 .links_btns .btns .login:hover {
+  border: none;
+  background: #00BCD4;
+  color: #FFFFFF;
+  padding: 0.35vw 0.92vw;
+}
 .header_wrapper header .headeris2 .links_btns .btns .register {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
 }
+.header_wrapper header .headeris2 .links_btns .btns .register:hover {
+  background: #00A4B9;
+}
 .header_wrapper header .text {
   grid-column: 2/3;
   grid-row: 2/3;
-  align-self: center;
+  align-self: flex-start;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -629,6 +665,9 @@
 }
 .header_wrapper header .text h1 {
   font-size: 1.823vw;
+}
+.header_wrapper header .text p {
+  font-size: 0.8vw;
 }
 
 .login_formular {
@@ -646,7 +685,8 @@
   font-size: 0.833vw;
   gap: 1vw;
 }
-.login_formular .input_container input, .login_formular .input_container a {
+.login_formular .input_container input,
+.login_formular .input_container a {
   height: 2.5vw;
 }
 .login_formular .input_container input {
@@ -783,37 +823,45 @@
   grid-template-columns: 1fr 59.375vw 1fr;
   grid-template-rows: 3.5vw 36.5vw;
 }
-.header_wrapper header .headeris {
+.header_wrapper header .headeris_about {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
+  grid-column: 2/3;
   display: flex;
   justify-content: space-between;
   align-content: center;
   border-bottom: 1px solid grey;
   transition: 0.5s ease;
 }
-.header_wrapper header .headeris .logo {
+.header_wrapper header .headeris_about .logo {
   font-size: 1.042vw;
   font-weight: 700;
   margin: 1.302vw 0 1.302vw 0;
 }
-.header_wrapper header .headeris .logo span {
+.header_wrapper header .headeris_about .logo span {
   font-size: 0.885vw;
 }
-.header_wrapper header .headeris .links_btns {
+.header_wrapper header .headeris_about .links_btns {
   width: 61%;
   display: flex;
   justify-content: space-between;
 }
-.header_wrapper header .headeris .links_btns nav li {
+.header_wrapper header .headeris_about .links_btns nav li {
   display: inline-block;
   margin: 1.563vw 2.5vw 1.563vw 0;
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper header .headeris .links_btns .btns {
+.header_wrapper header .headeris_about .links_btns nav li a {
+  transition: 0.3s ease;
+}
+.header_wrapper header .headeris_about .links_btns nav li a:hover {
+  color: #00BCD4;
+}
+.header_wrapper header .headeris_about .links_btns .btns {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -821,32 +869,45 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper header .headeris .links_btns .btns .login, .header_wrapper header .headeris .links_btns .btns .register {
+.header_wrapper header .headeris_about .links_btns .btns .login,
+.header_wrapper header .headeris_about .links_btns .btns .register {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
+  transition: 0.5s ease;
 }
-.header_wrapper header .headeris .links_btns .btns .login {
+.header_wrapper header .headeris_about .links_btns .btns .login {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper header .headeris .links_btns .btns .register {
+.header_wrapper header .headeris_about .links_btns .btns .login:hover {
+  border: none;
+  background: #FFFFFF;
+  color: #00BCD4;
+  padding: 0.35vw 0.92vw;
+}
+.header_wrapper header .headeris_about .links_btns .btns .register {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
 }
+.header_wrapper header .headeris_about .links_btns .btns .register:hover {
+  background: #00A4B9;
+}
 .header_wrapper header .headeris2 {
   position: fixed;
-  width: 59.375vw;
+  width: 100%;
+  padding: 0 20.313vw;
   height: 3.646vw;
   justify-self: center;
-  z-index: 1000;
+  grid-column: 2/3;
   background: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-content: center;
   border-bottom: 1px solid grey;
   transition: 0.5s ease;
+  z-index: 1000;
 }
 .header_wrapper header .headeris2 a {
   color: black;
@@ -879,7 +940,8 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper header .headeris2 .links_btns .btns .login, .header_wrapper header .headeris2 .links_btns .btns .register {
+.header_wrapper header .headeris2 .links_btns .btns .login,
+.header_wrapper header .headeris2 .links_btns .btns .register {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
@@ -890,14 +952,23 @@
   border: 0.104vw solid #00BCD4;
   color: #00BCD4;
 }
+.header_wrapper header .headeris2 .links_btns .btns .login:hover {
+  border: none;
+  background: #00BCD4;
+  color: #FFFFFF;
+  padding: 0.35vw 0.92vw;
+}
 .header_wrapper header .headeris2 .links_btns .btns .register {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
 }
+.header_wrapper header .headeris2 .links_btns .btns .register:hover {
+  background: #00A4B9;
+}
 .header_wrapper header .text {
   grid-column: 2/3;
   grid-row: 2/3;
-  align-self: center;
+  align-self: flex-start;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -907,6 +978,9 @@
 }
 .header_wrapper header .text h1 {
   font-size: 1.823vw;
+}
+.header_wrapper header .text p {
+  font-size: 0.8vw;
 }
 
 .login_formular {
@@ -924,7 +998,8 @@
   font-size: 0.833vw;
   gap: 1vw;
 }
-.login_formular .input_container input, .login_formular .input_container a {
+.login_formular .input_container input,
+.login_formular .input_container a {
   height: 2.5vw;
 }
 .login_formular .input_container input {
@@ -1161,7 +1236,6 @@
   font-size: 1.042vw;
   font-weight: 700;
   margin: 1.302vw 0 1.302vw 0;
-  color: black;
 }
 .header_wrapper_about header .headeris2 .logo span {
   font-size: 0.885vw;
@@ -1177,6 +1251,12 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
+.header_wrapper_about header .headeris2 .links_btns nav li a {
+  transition: 0.3s ease;
+}
+.header_wrapper_about header .headeris2 .links_btns nav li a:hover {
+  color: #00BCD4;
+}
 .header_wrapper_about header .headeris2 .links_btns .btns {
   display: flex;
   justify-content: space-between;
@@ -1191,16 +1271,16 @@
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
+  transition: 0.5s ease;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .login {
   padding: 0.3vw 0.9vw;
-  border: 0.104vw solid #00BCD4;
-  color: #00BCD4;
+  border: 0.104vw solid #FFFFFF;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .login:hover {
   border: none;
-  background: #00BCD4;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .register {
@@ -1251,7 +1331,7 @@
 }
 .aboutus_section .wrapper .img_container img {
   max-width: 100%;
-  width: 500px;
+  width: 26.042vw;
   margin: 5vw 0 0 0;
   align-self: flex-start;
   justify-self: center;
@@ -1406,7 +1486,6 @@
   font-size: 1.042vw;
   font-weight: 700;
   margin: 1.302vw 0 1.302vw 0;
-  color: black;
 }
 .header_wrapper_about header .headeris2 .logo span {
   font-size: 0.885vw;
@@ -1422,6 +1501,12 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
+.header_wrapper_about header .headeris2 .links_btns nav li a {
+  transition: 0.3s ease;
+}
+.header_wrapper_about header .headeris2 .links_btns nav li a:hover {
+  color: #00BCD4;
+}
 .header_wrapper_about header .headeris2 .links_btns .btns {
   display: flex;
   justify-content: space-between;
@@ -1436,16 +1521,16 @@
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
+  transition: 0.5s ease;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .login {
   padding: 0.3vw 0.9vw;
-  border: 0.104vw solid #00BCD4;
-  color: #00BCD4;
+  border: 0.104vw solid #FFFFFF;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .login:hover {
   border: none;
-  background: #00BCD4;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .register {
@@ -1527,10 +1612,10 @@
 .hosting_services .grid_wrapper main .con .fa::before {
   color: #FFFFFF;
   background-color: #00BCD4;
-  border: 2.083vw solid #00BCD4;
+  border: 0.783vw solid #00BCD4;
   border-radius: 50%;
-  padding: 0 0.104vw;
-  font-size: 1.563vw;
+  padding: 0 0.105vw;
+  font-size: 1.163vw;
 }
 
 * {
@@ -1649,7 +1734,6 @@
   font-size: 1.042vw;
   font-weight: 700;
   margin: 1.302vw 0 1.302vw 0;
-  color: black;
 }
 .header_wrapper_about header .headeris2 .logo span {
   font-size: 0.885vw;
@@ -1665,6 +1749,12 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
+.header_wrapper_about header .headeris2 .links_btns nav li a {
+  transition: 0.3s ease;
+}
+.header_wrapper_about header .headeris2 .links_btns nav li a:hover {
+  color: #00BCD4;
+}
 .header_wrapper_about header .headeris2 .links_btns .btns {
   display: flex;
   justify-content: space-between;
@@ -1679,16 +1769,16 @@
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
+  transition: 0.5s ease;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .login {
   padding: 0.3vw 0.9vw;
-  border: 0.104vw solid #00BCD4;
-  color: #00BCD4;
+  border: 0.104vw solid #FFFFFF;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .login:hover {
   border: none;
-  background: #00BCD4;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns .register {
@@ -1739,7 +1829,8 @@
   padding: 0 0 0 5vw;
   width: 100%;
 }
-.contact_container .wrapper .text_left a, .contact_container .wrapper .text_left input {
+.contact_container .wrapper .text_left a,
+.contact_container .wrapper .text_left input {
   height: 2.5vw;
 }
 .contact_container .wrapper .text_left input {
@@ -1764,10 +1855,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 407px;
+  height: 18.75vw;
 }
 .contact_container .wrapper .text1 .upper_div {
-  padding: 0 0 3.5vw 0;
+  padding: 0 0 4vw 0;
   border-bottom: 2.5px solid #F7F7F7;
 }
 .contact_container .wrapper .text1 .upper_div h3 {
@@ -1782,7 +1873,6 @@
   font-weight: 300;
 }
 .contact_container .wrapper .text1 .lower_div {
-  margin: 2vw 0 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
