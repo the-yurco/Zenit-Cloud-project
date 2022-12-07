@@ -7,11 +7,8 @@
 
 .header_wrapper_about {
   background-image: url("images/heading-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 30vw;
+  @include background_image;
+  height: 40vw;
 
   a {
     color: white;

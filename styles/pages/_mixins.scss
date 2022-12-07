@@ -139,3 +139,10 @@
     padding: 0 0.105vw;
     font-size: 1.163vw;
 }
+
+@mixin background_image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

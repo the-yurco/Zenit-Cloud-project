@@ -4,12 +4,9 @@
 @import "./variables";
 @import "./mixins";
 
-.header_wrapper {
+.header_wrapper_register {
   background-image: url("images/heading-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  @include background_image;
   height: 40vw;
 
   a {
