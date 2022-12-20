@@ -98,7 +98,7 @@
 }
 
 .hosting_services {
-  height: 45vw;
+  height: 105vw;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -180,8 +180,8 @@
     background-image: url("images/pricing-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    // background-attachment: fixed;
+    // background-position: center;
   }
 
   .text_container {
@@ -360,10 +360,7 @@
 
 .footer {
   background-image: url("images/footer-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  @include background_image;
 
   @include grid-template-columns;
   grid-template-rows: 18vw 7vw;
@@ -403,7 +400,7 @@
       }
     }
   }
-  footer {
+  .footer {
     grid-column: 2/3;
     grid-row: 2/3;
 

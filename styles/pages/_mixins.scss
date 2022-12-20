@@ -141,8 +141,13 @@
 }
 
 @mixin background_image{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  // background-size: cover;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    height: 35vw;
 }

@@ -9,8 +9,7 @@
   background-image: url("images/banner-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  height: 35vw;
   height: 40vw;
 }
 .header_wrapper1 a {
@@ -221,7 +220,7 @@
 }
 
 .hosting_services {
-  height: 45vw;
+  height: 105vw;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -291,8 +290,6 @@
   background-image: url("images/pricing-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 .configuration_cloud_hosting .text_container {
   grid-column: 2/3;
@@ -447,8 +444,7 @@
   background-image: url("images/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  height: 35vw;
   display: grid;
   grid-template-columns: 1fr 59.375vw 1fr;
   grid-template-rows: 18vw 7vw;
@@ -483,25 +479,23 @@
   margin-left: 0.26vw;
   font-size: 0.729vw;
 }
-.footer footer {
+.footer .footer {
   grid-column: 2/3;
   grid-row: 2/3;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer footer h3 {
+.footer .footer h3 {
   font-size: 0.9vw;
 }
 
 .header_wrapper_login {
   background-image: url("images/heading-bg.jpg");
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 40vw;
+  height: 35vw;
+  height: 35vw;
 }
 .header_wrapper_login a {
   color: white;
@@ -812,9 +806,8 @@
   background-image: url("images/heading-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 40vw;
+  height: 35vw;
+  height: 35vw;
 }
 .header_wrapper_register a {
   color: white;
@@ -1132,9 +1125,8 @@
   background-image: url("images/heading-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 40vw;
+  height: 35vw;
+  height: 35vw;
 }
 .header_wrapper_about a {
   color: white;
@@ -1382,9 +1374,8 @@
   background-image: url("images/heading-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 40vw;
+  height: 35vw;
+  height: 35vw;
 }
 .header_wrapper_services a {
   color: white;
@@ -1630,9 +1621,8 @@
   background-image: url("images/heading-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 40vw;
+  height: 35vw;
+  height: 35vw;
 }
 .header_wrapper_about a {
   color: white;

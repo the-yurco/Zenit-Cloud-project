@@ -3,13 +3,9 @@
 
 .header_wrapper_login {
   background-image: url("images/heading-bg.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  @include background_image;
   
-  height: 40vw;
+  height: 35vw;
 
   a {
     color: white;
