@@ -24,6 +24,16 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Prihlásiť</h1>
+      <div class="input_container">
+        <input type="search" name="" id="" placeholder="Vaše prihlasovacie meno/e-mail" />
+        <input type="search" name="" id="" placeholder="Vaše prihlasovacie heslo" />
+        <a href="#">Prihlásiť</a>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
     <section class="header_wrapper1">
       <header>
         <div class="headeris">
@@ -41,7 +51,7 @@
             </nav>
 
             <div class="btns">
-              <a href="./login.html" class="login">Prihlásiť</a>
+              <button href="" class="login show-modal">Prihlásiť</button>
               <a href="./register.html" class="register">Registrovať</a>
             </div>
           </div>
