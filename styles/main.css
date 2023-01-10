@@ -53,10 +53,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper1 header .headeris .links_btns nav li a {
+.header_wrapper1 header .headeris .links_btns nav li a, .header_wrapper1 header .headeris .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper1 header .headeris .links_btns nav li a:hover {
+.header_wrapper1 header .headeris .links_btns nav li a:hover, .header_wrapper1 header .headeris .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper1 header .headeris .links_btns .btns {
@@ -67,29 +67,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper1 header .headeris .links_btns .btns .login,
-.header_wrapper1 header .headeris .links_btns .btns .register {
+.header_wrapper1 header .headeris .links_btns .btns .login_btn,
+.header_wrapper1 header .headeris .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper1 header .headeris .links_btns .btns .login {
+.header_wrapper1 header .headeris .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper1 header .headeris .links_btns .btns .login:hover {
+.header_wrapper1 header .headeris .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper1 header .headeris .links_btns .btns .register {
+.header_wrapper1 header .headeris .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper1 header .headeris .links_btns .btns .register:hover {
+.header_wrapper1 header .headeris .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper1 header .headeris2 {
@@ -129,10 +130,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper1 header .headeris2 .links_btns nav li a {
+.header_wrapper1 header .headeris2 .links_btns nav li a, .header_wrapper1 header .headeris2 .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper1 header .headeris2 .links_btns nav li a:hover {
+.header_wrapper1 header .headeris2 .links_btns nav li a:hover, .header_wrapper1 header .headeris2 .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper1 header .headeris2 .links_btns .btns {
@@ -143,29 +144,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper1 header .headeris2 .links_btns .btns .login,
-.header_wrapper1 header .headeris2 .links_btns .btns .register {
+.header_wrapper1 header .headeris2 .links_btns .btns .login_btn,
+.header_wrapper1 header .headeris2 .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper1 header .headeris2 .links_btns .btns .login {
+.header_wrapper1 header .headeris2 .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper1 header .headeris2 .links_btns .btns .login:hover {
+.header_wrapper1 header .headeris2 .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper1 header .headeris2 .links_btns .btns .register {
+.header_wrapper1 header .headeris2 .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper1 header .headeris2 .links_btns .btns .register:hover {
+.header_wrapper1 header .headeris2 .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper1 header main {
@@ -1168,10 +1170,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper_about header .headeris_about .links_btns nav li a {
+.header_wrapper_about header .headeris_about .links_btns nav li a, .header_wrapper_about header .headeris_about .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper_about header .headeris_about .links_btns nav li a:hover {
+.header_wrapper_about header .headeris_about .links_btns nav li a:hover, .header_wrapper_about header .headeris_about .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper_about header .headeris_about .links_btns .btns {
@@ -1182,29 +1184,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .login,
-.header_wrapper_about header .headeris_about .links_btns .btns .register {
+.header_wrapper_about header .headeris_about .links_btns .btns .login_btn,
+.header_wrapper_about header .headeris_about .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .login {
+.header_wrapper_about header .headeris_about .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .login:hover {
+.header_wrapper_about header .headeris_about .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .register {
+.header_wrapper_about header .headeris_about .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .register:hover {
+.header_wrapper_about header .headeris_about .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper_about header .headeris2 {
@@ -1244,10 +1247,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper_about header .headeris2 .links_btns nav li a {
+.header_wrapper_about header .headeris2 .links_btns nav li a, .header_wrapper_about header .headeris2 .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper_about header .headeris2 .links_btns nav li a:hover {
+.header_wrapper_about header .headeris2 .links_btns nav li a:hover, .header_wrapper_about header .headeris2 .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns {
@@ -1258,29 +1261,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .login,
-.header_wrapper_about header .headeris2 .links_btns .btns .register {
+.header_wrapper_about header .headeris2 .links_btns .btns .login_btn,
+.header_wrapper_about header .headeris2 .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .login {
+.header_wrapper_about header .headeris2 .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .login:hover {
+.header_wrapper_about header .headeris2 .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .register {
+.header_wrapper_about header .headeris2 .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .register:hover {
+.header_wrapper_about header .headeris2 .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper_about header .text {
@@ -1417,10 +1421,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper_services header .headeris_about .links_btns nav li a {
+.header_wrapper_services header .headeris_about .links_btns nav li a, .header_wrapper_services header .headeris_about .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper_services header .headeris_about .links_btns nav li a:hover {
+.header_wrapper_services header .headeris_about .links_btns nav li a:hover, .header_wrapper_services header .headeris_about .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper_services header .headeris_about .links_btns .btns {
@@ -1431,29 +1435,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper_services header .headeris_about .links_btns .btns .login,
-.header_wrapper_services header .headeris_about .links_btns .btns .register {
+.header_wrapper_services header .headeris_about .links_btns .btns .login_btn,
+.header_wrapper_services header .headeris_about .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper_services header .headeris_about .links_btns .btns .login {
+.header_wrapper_services header .headeris_about .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper_services header .headeris_about .links_btns .btns .login:hover {
+.header_wrapper_services header .headeris_about .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper_services header .headeris_about .links_btns .btns .register {
+.header_wrapper_services header .headeris_about .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper_services header .headeris_about .links_btns .btns .register:hover {
+.header_wrapper_services header .headeris_about .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper_services header .headeris2 {
@@ -1493,10 +1498,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper_services header .headeris2 .links_btns nav li a {
+.header_wrapper_services header .headeris2 .links_btns nav li a, .header_wrapper_services header .headeris2 .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper_services header .headeris2 .links_btns nav li a:hover {
+.header_wrapper_services header .headeris2 .links_btns nav li a:hover, .header_wrapper_services header .headeris2 .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper_services header .headeris2 .links_btns .btns {
@@ -1507,29 +1512,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper_services header .headeris2 .links_btns .btns .login,
-.header_wrapper_services header .headeris2 .links_btns .btns .register {
+.header_wrapper_services header .headeris2 .links_btns .btns .login_btn,
+.header_wrapper_services header .headeris2 .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper_services header .headeris2 .links_btns .btns .login {
+.header_wrapper_services header .headeris2 .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper_services header .headeris2 .links_btns .btns .login:hover {
+.header_wrapper_services header .headeris2 .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper_services header .headeris2 .links_btns .btns .register {
+.header_wrapper_services header .headeris2 .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper_services header .headeris2 .links_btns .btns .register:hover {
+.header_wrapper_services header .headeris2 .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper_services header .text {
@@ -1664,10 +1670,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper_about header .headeris_about .links_btns nav li a {
+.header_wrapper_about header .headeris_about .links_btns nav li a, .header_wrapper_about header .headeris_about .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper_about header .headeris_about .links_btns nav li a:hover {
+.header_wrapper_about header .headeris_about .links_btns nav li a:hover, .header_wrapper_about header .headeris_about .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper_about header .headeris_about .links_btns .btns {
@@ -1678,29 +1684,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .login,
-.header_wrapper_about header .headeris_about .links_btns .btns .register {
+.header_wrapper_about header .headeris_about .links_btns .btns .login_btn,
+.header_wrapper_about header .headeris_about .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .login {
+.header_wrapper_about header .headeris_about .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .login:hover {
+.header_wrapper_about header .headeris_about .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .register {
+.header_wrapper_about header .headeris_about .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper_about header .headeris_about .links_btns .btns .register:hover {
+.header_wrapper_about header .headeris_about .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper_about header .headeris2 {
@@ -1740,10 +1747,10 @@
   font-size: 0.729vw;
   font-weight: 300;
 }
-.header_wrapper_about header .headeris2 .links_btns nav li a {
+.header_wrapper_about header .headeris2 .links_btns nav li a, .header_wrapper_about header .headeris2 .links_btns nav li button {
   transition: 0.3s ease;
 }
-.header_wrapper_about header .headeris2 .links_btns nav li a:hover {
+.header_wrapper_about header .headeris2 .links_btns nav li a:hover, .header_wrapper_about header .headeris2 .links_btns nav li button:hover {
   color: #00BCD4;
 }
 .header_wrapper_about header .headeris2 .links_btns .btns {
@@ -1754,29 +1761,30 @@
   gap: 1vw;
   width: 30%;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .login,
-.header_wrapper_about header .headeris2 .links_btns .btns .register {
+.header_wrapper_about header .headeris2 .links_btns .btns .login_btn,
+.header_wrapper_about header .headeris2 .links_btns .btns .register_btn {
   font-size: 0.729vw;
   font-weight: 400;
   margin: 1.042vw 0 1.042vw 0;
   height: 1.5vw;
   transition: 0.5s ease;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .login {
+.header_wrapper_about header .headeris2 .links_btns .btns .login_btn {
   padding: 0.3vw 0.9vw;
   border: 0.104vw solid #FFFFFF;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .login:hover {
+.header_wrapper_about header .headeris2 .links_btns .btns .login_btn:hover {
   border: none;
   background: #FFFFFF;
   color: #00BCD4;
   padding: 0.35vw 0.92vw;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .register {
+.header_wrapper_about header .headeris2 .links_btns .btns .register_btn {
   padding: 0.35vw 0.8vw;
   background-color: #00BCD4;
+  border: none;
 }
-.header_wrapper_about header .headeris2 .links_btns .btns .register:hover {
+.header_wrapper_about header .headeris2 .links_btns .btns .register_btn:hover {
   background: #00A4B9;
 }
 .header_wrapper_about header .text {
@@ -1937,6 +1945,7 @@
   border-radius: 0.2vw;
   color: white;
   height: 3vw;
+  box-shadow: 0.2vw 0.2vw #00A4B9;
 }
 .modal .input_container {
   display: flex;
@@ -1948,11 +1957,20 @@
   width: 60%;
   height: 2vw;
   padding-left: 0.5vw;
+  border: 0.1vw solid black;
 }
-.modal .input_container a {
+.modal .input_container .btn_gap {
+  display: flex;
+  gap: 2vw;
+}
+.modal .input_container .btn_gap button {
+  border: none;
   background-color: #00BCD4;
   padding: 0.5vw 2vw;
   color: white;
+  width: 8.8vw;
+  cursor: pointer;
+  box-shadow: 0.2vw 0.2vw #00A4B9;
 }
 
 .overlay {
@@ -1971,7 +1989,7 @@
     bottom: -100%;
   }
   50% {
-    bottom: 5%;
+    bottom: 3%;
   }
   100% {
     bottom: -10%;
@@ -1987,4 +2005,7 @@
   100% {
     bottom: -100%;
   }
+}
+.register {
+  border: none;
 }/*# sourceMappingURL=main.css.map */

@@ -80,7 +80,7 @@
         font-size: 0.729vw;
         font-weight: 300;
 
-        a {
+        a,button {
           transition: 0.3s ease;
           &:hover {
             color: $turquoise;
@@ -97,8 +97,8 @@
       gap: 1vw;
       width: 30%;
 
-      .login,
-      .register {
+      .login_btn,
+      .register_btn {
         font-size: 0.729vw;
         font-weight: 400;
         margin: 1.042vw 0 1.042vw 0;
@@ -106,7 +106,7 @@
         transition: 0.5s ease;
       }
 
-      .login {
+      .login_btn {
         padding: 0.3vw 0.9vw;
         border: 0.104vw solid $white;
 
@@ -118,9 +118,10 @@
         }
       }
 
-      .register {
+      .register_btn {
         padding: 0.35vw 0.8vw;
         background-color: $turquoise;
+        border: none;
 
         &:hover {
           background: $hover;

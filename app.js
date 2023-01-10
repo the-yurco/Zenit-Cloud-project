@@ -1,14 +1,26 @@
 window.addEventListener('scroll', () => {
     let header = document.querySelector('.headeris');
     let scroll = window.scrollY;
+    let login_btn = document.querySelector('.login_btn');
+    let register_btn = document.querySelector('.register_btn');
+    let rego = document.querySelector('.rego');
 
     console.log(scroll);
 
     if(scroll >= 50){
         header.classList.add('headeris2');
+        login_btn.style.border = '1px solid #00BCD4';
+        login_btn.style.color = '#00BCD4';
+        register_btn.style.border = 'none';
+
     }
     else{
         header.classList.remove('headeris2');
+        // login_btn.classList.remove('login_btn');
+        login_btn.classList.add('login_btn');
+        // login_btn.style.border = '1px solid white';
+        // login_btn.style.color = 'white';
+        register_btn.style.border = 'none';
     }
 });
 
