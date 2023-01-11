@@ -72,7 +72,7 @@ btnsOpenModal.addEventListener('click', openModal);
 
 
 btnCloseModal.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
+// overlay.addEventListener('click', closeModal);
 loginModalbtn.addEventListener('click', closeModal);
 registerModalbtn.addEventListener('click', openModalR);
 // noti.addEventListener('click', closeNoti);
