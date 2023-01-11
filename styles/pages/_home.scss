@@ -275,7 +275,7 @@
           }
           .fa-check::before {
             background: -webkit-linear-gradient($blue, $purple);
-            -webkit-background-clip: text;
+            // -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             z-index: 0;
           }

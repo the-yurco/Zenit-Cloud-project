@@ -376,7 +376,6 @@
 }
 .configuration_cloud_hosting main .con2 .lower_field div .fa-check::before {
   background: -webkit-linear-gradient(#3264f5, #7202BB);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 0;
 }
