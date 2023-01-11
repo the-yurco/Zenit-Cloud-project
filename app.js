@@ -28,34 +28,55 @@ window.addEventListener('scroll', () => {
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
-const btnsOpenModal = document.querySelectorAll('.show-modal');
+const btnsOpenModal = document.querySelector('.show-modal');
+
+const modal1 = document.querySelector('.modal1');
+const overlay1 = document.querySelector('.overlay1');
+
+const loginModalbtn = document.querySelector('.open-modal');
+const registerModalbtn = document.querySelector('.open-modal1');
+
+const noti = document.querySelector('.noti');
+
+const openModalR = function () {
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+
+    modal1.classList.remove('hidden');
+    overlay1.classList.remove('hidden');
+}
 
 const openModal = function () {
     modal.classList.remove('hidden');
     overlay.classList.remove('hidden');
-    body.style.overflowY = "hidden"; 
+    
+    noti.classList.add('hidden');
 }
 
 // we created function simplified our code
 const closeModal = function () {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
+
+    noti.classList.remove('hidden');
 }
 
-// if we select multiple ele. and we want to log them we need loop
-for (let i = 0; i < btnsOpenModal.length; i++){
-    btnsOpenModal[i].addEventListener('click', openModal);
+btnsOpenModal.addEventListener('click', openModal);
 
-        // we removed a class which contains a property display:none so the article show up basically (we can also add classes and many more)
-        //! modal.classList.remove('hidden');
-
-        // we removed a class which contains a property backdrop-filter: blur(3px); so the article show up basically and we had blured background
-        //! overlay.classList.remove('hidden');
-};
 
 // here we change it for close btn
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
+loginModalbtn.addEventListener('click', closeModal);
+registerModalbtn.addEventListener('click', openModalR);
+
+// if (loginModalbtn) {
+//     noti.classList.remove('hidden');
+//     noti.classList.add('noti');
+// } else {
+//     noti.classList.remove('noti');
+//     noti.classList.add('hidden');
+// }
 
 document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
@@ -64,3 +85,7 @@ document.addEventListener('keydown', function (e) {
         };
     };
 });
+
+
+//----------------------------------------------------------
+

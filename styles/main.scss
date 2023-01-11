@@ -17,7 +17,7 @@
     list-style: none;
 }
 
-.show-modal {
+.show-modal, .show-modal1 {
     background-color: transparent;
     color: white;
     cursor: pointer;
@@ -34,11 +34,22 @@
     background: none;
 }
 
+.noti {
+    position: fixed;
+    top: 80%;
+    right: 5%;
+    background-color: $turquoise;
+    color: black;
+    padding: 2vw;
+    z-index: 1000;
+    animation: noti 0.7s;
+}
+
 .hidden {
     display: none;
 }
 
-.modal {
+.modal, .modal1 {
     transform: translate(-50%, -50%);
     position: fixed;
     top: 50%;
@@ -65,7 +76,7 @@
         box-shadow: 0.2vw 0.2vw $hover;
     }
 
-    .input_container{
+    .input_container, .input_container1{
         display: flex;
         flex-direction: column;
         place-items: center;
@@ -94,7 +105,7 @@
     }
 }
 
-.overlay {
+.overlay, .overlay1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -122,6 +133,20 @@
 
     100% {
         bottom: -100%;
+    }
+}
+
+@keyframes noti {
+    0% {
+        bottom: -100%;
+    }
+
+    50% {
+        top: 600%;
+    }
+
+    100% {
+        bottom: 20%;
     }
 }
 
