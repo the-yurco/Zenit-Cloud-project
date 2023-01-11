@@ -24,6 +24,24 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Prihlásiť</h1>
+      <div class="input_container">
+        <input type="email" name="" id="" placeholder="Váš prihlasovací E-mail" />
+        <input type="password" name="" id="" placeholder="Vaše prihlasovacie Heslo" />
+        <div class="btn_gap">
+          <button href="#" class="open-modal">Prihlásiť</button>
+          <button href="#" class="open-modal">Registrovať</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="noti hidden">
+      <p>Boli ste prihlásený</p>
+    </div>
+
     <section class="header_wrapper_services">
       <header>
         <div class="headeris_about headeris">
@@ -41,8 +59,7 @@
             </nav>
 
             <div class="btns">
-              <button href="" class="login show-modal">Prihlásiť</button>
-              <a href="./register.html" class="register">Registrovať</a>
+              <button href="" class="login_btn show-modal">Prihlásiť</button>
             </div>
           </div>
         </div>

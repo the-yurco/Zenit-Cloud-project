@@ -26,18 +26,22 @@
   <body>
     <div class="modal hidden">
       <button class="close-modal">&times;</button>
-      <h1>I'm a modal window 😍</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
+      <h1>Prihlásiť</h1>
+      <div class="input_container">
+        <input type="email" name="" id="" placeholder="Váš prihlasovací E-mail" />
+        <input type="password" name="" id="" placeholder="Vaše prihlasovacie Heslo" />
+        <div class="btn_gap">
+          <button href="#" class="open-modal">Prihlásiť</button>
+          <button href="#" class="open-modal">Registrovať</button>
+        </div>
+      </div>
     </div>
     <div class="overlay hidden"></div>
+
+    <div class="noti hidden">
+      <p>Boli ste prihlásený</p>
+    </div>
+
     <section class="header_wrapper_about">
       <header>
         <div class="headeris_about headeris">
@@ -55,8 +59,7 @@
             </nav>
 
             <div class="btns">
-              <button href="" class="login show-modal">Prihlásiť</button>
-              <a href="register" class="register">Registrovať</a>
+              <button href="" class="login_btn show-modal">Prihlásiť</button>
             </div>
           </div>
         </div>

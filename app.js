@@ -1,3 +1,5 @@
+const noti = document.querySelector('.noti');
+
 window.addEventListener('scroll', () => {
     let header = document.querySelector('.headeris');
     let scroll = window.scrollY;
@@ -36,7 +38,7 @@ const overlay1 = document.querySelector('.overlay1');
 const loginModalbtn = document.querySelector('.open-modal');
 const registerModalbtn = document.querySelector('.open-modal1');
 
-const noti = document.querySelector('.noti');
+// const noti = document.querySelector('.noti');
 
 const openModalR = function () {
     modal.classList.add('hidden');
@@ -61,22 +63,21 @@ const closeModal = function () {
     noti.classList.remove('hidden');
 }
 
+const closeNoti = function () {
+    noti.classList.remove('noti');
+    noti.classList.add('hidden');
+}
+
 btnsOpenModal.addEventListener('click', openModal);
 
 
-// here we change it for close btn
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 loginModalbtn.addEventListener('click', closeModal);
 registerModalbtn.addEventListener('click', openModalR);
+// noti.addEventListener('click', closeNoti);
 
-// if (loginModalbtn) {
-//     noti.classList.remove('hidden');
-//     noti.classList.add('noti');
-// } else {
-//     noti.classList.remove('noti');
-//     noti.classList.add('hidden');
-// }
+
 
 document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
@@ -85,6 +86,7 @@ document.addEventListener('keydown', function (e) {
         };
     };
 });
+
 
 
 //----------------------------------------------------------

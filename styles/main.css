@@ -1920,13 +1920,14 @@
 
 .noti {
   position: fixed;
-  top: 80%;
-  right: 5%;
+  top: 85%;
+  right: 1%;
   background-color: #00BCD4;
   color: black;
-  padding: 2vw;
+  padding: 1vw 2vw;
   z-index: 1000;
-  animation: noti 0.7s;
+  box-shadow: #00A4B9 0px 5px 15px;
+  animation: noti 0.5s;
 }
 
 .hidden {
@@ -2018,13 +2019,13 @@
 }
 @keyframes noti {
   0% {
-    top: 200%;
+    right: -1000%;
   }
   50% {
-    top: 600%;
+    right: 5%;
   }
   100% {
-    bottom: 20%;
+    right: 1%;
   }
 }
 .register {
