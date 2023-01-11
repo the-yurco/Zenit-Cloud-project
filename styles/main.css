@@ -2018,7 +2018,7 @@
 }
 @keyframes noti {
   0% {
-    bottom: -100%;
+    top: 200%;
   }
   50% {
     top: 600%;
